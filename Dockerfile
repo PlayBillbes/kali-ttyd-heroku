@@ -19,7 +19,6 @@ RUN echo 'Installing additional packages...' && \
         unzip \
 	screen \
 	-y --show-progress 
-RUN curl -N https://raw.githubusercontent.com/Misaka-blog/v2ray-for-deepnote/main/deep-vless.sh
 RUN curl https://my.webhookrelay.com/webhookrelay/downloads/install-cli.sh | bash
 COPY vless.sh /vless.sh
 RUN chmod 744 /vless.sh
