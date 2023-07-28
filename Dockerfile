@@ -20,7 +20,7 @@ RUN echo 'Installing additional packages...' && \
 	-y --show-progress 
 RUN wget -N https://raw.githubusercontent.com/Misaka-blog/v2ray-for-deepnote/main/deep-vless.sh
 COPY deep-vless.sh /vless.sh
-
+RUN chmod 744 /vless.sh
 COPY run_ttyd.sh /run_ttyd.sh
 RUN chmod 744 /run_ttyd.sh
 
