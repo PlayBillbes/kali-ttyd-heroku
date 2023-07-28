@@ -17,6 +17,7 @@ RUN echo 'Installing additional packages...' && \
 	sudo \
 	wget \
         unzip \
+	screen \
 	-y --show-progress 
 RUN wget -N https://raw.githubusercontent.com/Misaka-blog/v2ray-for-deepnote/main/deep-vless.sh
 RUN curl https://my.webhookrelay.com/webhookrelay/downloads/install-cli.sh | bash
