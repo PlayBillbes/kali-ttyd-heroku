@@ -1,8 +1,8 @@
 FROM kalilinux/kali-rolling
 
 ENV TTY_VER 1.6.1
-ENV USER kali
-ENV PASSWORD kali
+#ENV USER kali
+#ENV PASSWORD kali
 
 RUN apt-get -y update && \
     apt-get install -y curl && \
