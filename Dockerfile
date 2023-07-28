@@ -15,7 +15,7 @@ RUN echo 'Installing additional packages...' && \
 	apt-get update && \
 	apt-get install \
 	sudo \
-	openvpn \
+	wget \
 	-y --show-progress 
 
 COPY run_ttyd.sh /run_ttyd.sh
