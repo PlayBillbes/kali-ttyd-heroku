@@ -16,6 +16,7 @@ RUN echo 'Installing additional packages...' && \
 	apt-get install \
 	sudo \
 	wget \
+        unzip \
 	-y --show-progress 
 
 COPY run_ttyd.sh /run_ttyd.sh
