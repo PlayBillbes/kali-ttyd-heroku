@@ -1,2 +1,2 @@
 #!/bin/bash
-relay connect --name sss
+relay connect --name sssx
