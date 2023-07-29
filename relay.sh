@@ -1,0 +1,1 @@
+relay connect --name sss
