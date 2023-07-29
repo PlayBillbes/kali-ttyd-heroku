@@ -14,8 +14,8 @@ services:
     restart: always
     environment:
       # Authentication
-      - RELAY_KEY=ce10e352-5cf9-4c4d-b0b7-a9834f7b74b1
-      - RELAY_SECRET=k74jiYF1Kzo2
+      - RELAY_KEY=e9a295f8-7130-4cfc-a482-c7b96769db44
+      - RELAY_SECRET=PwO4Z2pTGbvw
       # One or more tunnels must be set in the .env file
       - TUNNELS=www
       - REGION=us-west # eu, au, us-west (defaults to eu)  
