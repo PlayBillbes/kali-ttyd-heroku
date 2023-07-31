@@ -1,4 +1,4 @@
-FROM kalilinux/kali-rolling
+FROM linux/amd64
 
 ENV TTY_VER 1.6.1
 #ENV USER kali
