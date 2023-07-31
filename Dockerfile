@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM debian:bullseye-slim
 
 ENV TTY_VER 1.6.1
 #ENV USER kali
