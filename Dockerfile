@@ -1,4 +1,4 @@
-FROM debian:bullseye-slim
+FROM registry.cn-hangzhou.aliyuncs.com/udh/cloudeon:dev
 
 ENV TTY_VER 1.6.1
 #ENV USER kali
