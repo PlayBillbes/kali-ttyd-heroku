@@ -1,4 +1,4 @@
-FROM linux/amd64
+FROM ubuntu:14.04
 
 ENV TTY_VER 1.6.1
 #ENV USER kali
